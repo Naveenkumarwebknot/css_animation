@@ -1,0 +1,46 @@
+.main_container{
+    background-color: brown;
+    padding-left:10px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:#fafafa;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 5px;
+    transition: transform 0.3s ease;
+    flex: 1;
+    border-top:3px solid red;
+    
+}
+.second_card{
+   display:flex;
+   flex-direction: column;
+   
+}
+
+.img_container{
+    display:flex;
+    justify-content:end;
+}
+.ll{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.card:hover {
+    transform: scale(1.1);
+}
+
